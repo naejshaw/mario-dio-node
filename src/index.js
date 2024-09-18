@@ -111,6 +111,8 @@ const player1 = {
         );
       }
       
+    //   TODO: Ajustar a lógica de arremesso de objetos e creditar um ponto ao vencedor do confronto
+
       if (block === "CONFRONTO") {
         let powerResult1 = diceResult1 + character1.PODER;
         let powerResult2 = diceResult2 + character2.PODER;
